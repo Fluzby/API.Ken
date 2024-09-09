@@ -1,0 +1,46 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f9f9f9;
+    width: 50%;
+}
+
+.title {
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #ff3030;
+}
+
+.joke-display .card {
+    border: none;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.random-jokes {
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+button {
+    margin-top: 10px;
+    color: #ff3030;
+}
+
+.search-results {
+    font-weight: bold;
+    color: #fc2626;
+}
+
+h4 {
+    color: #fc2626;
+}
+
+input[type="search"] {
+    padding: 10px;
+    font-size: 1rem;
+}
+
+#categories {
+    padding: 10px;
+    font-size: 1rem;
+}

@@ -1,13 +1,46 @@
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Chuck Norris Jokes</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <select name="categories" id="categories"></select>
-    <button class="generate-joke-button">Generate</button>
-    <h4 class="random-jokes"></h4>
+    <div class="container my-5">
+        <div class="text-center">
+            <h1 class="title" >CHUCK NORRIS JOKES</h1>
+            <p class="lead">Search for jokes or select a category:D</p>
+        </div>
+
+        <section class="search-section mb-4">
+            <div class="form-group">
+                <input type="search" id="search" class="form-control" placeholder="Search for a joke...">
+            </div>
+            <div class="search-results mb-3"></div>
+        </section>
+
+        <div class="text-center">
+            <div class="form-group">
+                <select class="form-control w-50 mx-auto" id="categories"></select>
+            </div>
+            <button class="btn btn-primary generate-joke-button">Generate Joke</button>
+        </div>
+
+        <section class="joke-display mt-5">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="random-jokes text-center">Your joke will appear here...</h4>
+                </div>
+            </div>
+        </section>
+    </div>
+
     <script src="API.js"></script>
 </body>
+
 </html>
